@@ -33,7 +33,8 @@ module.exports = {
       template: './client/index.html'
     }),
     new CopyWebpackPlugin([
-      { from: './client/public', to: 'public' }
+      { from: './client/public', to: 'public' },
+      { from: './client/assets', to: 'assets' }
     ])
   ],
 }

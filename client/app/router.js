@@ -8,6 +8,11 @@ export const router = new MoonRouter({
   map: {
     '/': 'Home',
     '/contact': 'Contact',
+    '/template': 'Template',
+    '/tutorial-components': 'TutorialComponents',
+    '/landing-page': 'Landing',
+    '/login-page': 'Login',
+    '/profile-page': 'Profile',
     '/*': 'NotFound'
   }
 })

@@ -50,7 +50,8 @@ module.exports = {
       comments: false
     }),
     new CopyWebpackPlugin([
-      { from: './client/public', to: 'public' }
+      { from: './client/public', to: 'public' },
+      { from: './client/assets', to: 'assets' }
     ]),
     new CompressionPlugin({
       asset: '[path].gz[query]',
